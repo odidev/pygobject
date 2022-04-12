@@ -11,7 +11,7 @@ install:
   - sudo python3 -m pip install --upgrade pip setuptools wheel\
   - sudo pip3 install testresources
   - sudo apt install -y libgirepository1.0-dev
-  - sudo pip3 install Ninja coverage-lcov pycairo
+  - sudo pip3 install Ninja pycairo
   - sudo apt-get -y install xvfb
   - sudo python3 setup.py install
   
